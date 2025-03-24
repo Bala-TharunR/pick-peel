@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 30px;
+    background-color: rgb(204, 204, 20);
+    color: black;
+    ul{
+        margin-left: 70%;
+    }
+    h1{
+        font-size: xx-large;
+        display: inline;
+        cursor: grab;
+    }
+    ul,li{
+        color: black;
+        font-size: large;
+        display: inline;
+    }
+    li:hover{
+        color: white;
+        cursor: pointer;
+    }    
+}
+.search{
+    input{
+        width: 60%;
+        padding: 15px;
+    }
+    padding-top: 50px;
+    text-align: center;
+}
+.products{
+    text-align: center;
+    padding-top:40px ;
+}
+.products .box a:hover{
+    background-color: black;
+    color: white;
+}
+
+.products .box{
+    display: inline-block;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 290px;
+    margin: 10px;
+    height: 220px;
+}
+.products .box a{
+    display: block;
+    color: black;
+    text-decoration: none; 
+}
+.about{
+    margin-top: 30px;
+    text-align: center;
+}
+.about p a{
+    color: red;
+    text-decoration: none;
+}
+.contact{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.contact h2{
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.contact h3,h5{
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    color: grey;
+}
